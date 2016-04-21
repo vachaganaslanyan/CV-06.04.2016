@@ -1,3 +1,197 @@
+@font-face {
+    font-family: Aniron;
+    src: url(../fonts/Aniron.ttf);
+}
+
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Aniron;
+    background-color: #C1BABA;
+}
+
+
+#head{
+    margin: 0 auto;
+    background-color: #C2874E;
+    color: #B9A67C;
+    width: 99.5%;
+    height: 800px;
+    border: 1px solid;
+    background: url(../images/maptext.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#head1{
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    background: url(../images/kolco.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+#name{
+    width: 100%;
+    margin: 0 auto;   
+}
+
+
+header{
+    margin: 0 auto;
+}
+
+header h1{
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 0 15px #FFFFFF, 0 0 6px #FFFFFF, 0 0 1px #FFFFFF;
+    color: #000000;
+}
+
+header h1 hr{
+    width: 70%;
+    margin-top: 50px auto;
+}
+
+
+#divMain{
+    width: 40%;  /*popoxel 60%-i*/        
+    display: inline-block;
+    vertical-align: top;
+    color: #834e19;
+    margin: 0 auto;
+    margin-left: 4%;
+}
+
+
+main img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+#mainImg{
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+#divAsideLeft{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    color: #000000;
+    margin: 0 auto;
+    margin-left: 4%;
+}
+
+#asideLeft h2{
+    text-align: center;
+    text-shadow: 0 0 15px #FFFFFF, 0 0 6px #FFFFFF, 0 0 1px #FFFFFF;
+    color: #F9F7F7;
+    color: #000000;
+}
+
+#asideLeft p{
+    text-shadow: 0 0 15px #FFFFFF, 0 0 6px #FFFFFF, 0 0 1px #FFFFFF;
+    color: #000000;
+    font-family: cursive;
+}
+
+
+#divAsideRight{
+        width: 20%;
+        display: inline-block;
+        vertical-align: top;
+        text-shadow: 0 0 15px #FFFFFF, 0 0 6px #FFFFFF, 0 0 1px #FFFFFF;
+        color: #000000;
+        margin: 0 auto;
+        margin-left: 4%;
+}
+
+#asideRight h2{
+    text-align: center;
+}
+
+#asideRight p{
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+
+
+#section3{
+    margin: 0 auto;
+    width: 100%;
+    background-color: 	#bac1ba;
+    text-shadow: 0 0 15px #FFFFFF, 0 0 6px #FFFFFF, 0 0 1px #FFFFFF;
+    color: #000000;
+}
+
+#articleLeft{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#articleLeft h2{
+    text-align: center;
+}
+
+#articleLeft h3{
+    margin-left: 4%;
+    font-family: cursive;
+}
+
+#articleLeft p{
+    margin-left: 4%;
+    margin-bottom: 90px;
+    font-family: cursive;
+}
+
+#articleRight{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#articleRight h2{
+    text-align: center;
+}
+
+#articleRight h3{
+    margin-left: 4%;
+}
+
+#articleRight p{
+    margin-left: 4%;
+    margin-bottom: 50px;
+}
+
+#articleRightbottom{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;   
+}
+
+
+footer{
+    text-align: center;
+    width: 100%;
+    margin: -20px auto;
+    background-color: 	#5C5955;
+    position: absolute;
+}
+
+footer p{
+    position: relative;
+    font-size: 20px;
+    text-shadow: 0 0 15px #FFFFFF, 0 0 6px #FFFFFF, 0 0 1px #FFFFFF;
+    color: #FFFFFF;
+}
+/*
 body {
     height: 100%;
     background-color: #FFF;
@@ -177,3 +371,4 @@ footer{
         display: none;
     }
 }
+*/
