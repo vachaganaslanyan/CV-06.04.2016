@@ -173,14 +173,26 @@ main img{
     display: inline-block;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 30px;
     text-align: center;   
+}
+
+#articleRightbottom a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid;
+    border-radius: 20%;
+    background-color: #C9302C;
+    color: #FFFFFF;
+    padding: 20px;
+    text-decoration: none;
+    
 }
 
 
 footer{
     text-align: center;
     width: 100%;
-    margin: -20px auto;
+    margin: 0 auto;
     background-color: 	#5C5955;
     position: absolute;
 }
@@ -190,6 +202,13 @@ footer p{
     font-size: 20px;
     text-shadow: 0 0 15px #FFFFFF, 0 0 6px #FFFFFF, 0 0 1px #FFFFFF;
     color: #FFFFFF;
+}
+
+
+@media print{
+    *{
+        display: none;
+    }
 }
 /*
 body {
@@ -347,6 +366,8 @@ footer{
 }
 
 @media print{
+    
+    
     
     *{
         background-color: #ffffff;
